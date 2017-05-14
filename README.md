@@ -1,2 +1,2 @@
-# homebrew-gdr
-Homebrew formula for github-daily-report
+# homebrew-daily
+Homebrew formula for [daily](https://github.com/rnitame/daily)
