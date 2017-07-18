@@ -1,16 +1,15 @@
 class Daily < Formula
-    homepage "https://github.com/rnitame/daily"
-    url "https://github.com/rnitame/daily/releases/download/v0.0.4/daily_darwin_amd64.zip"
-    sha256 "c7f653e7b8c306da5e56494c6d98ba79540e68ffb8bf4b99c97d17a452953bf3"
-    version "v0.0.4"
+  desc ""
+  homepage "https://github.com/rnitame/daily"
+  url "https://github.com/rnitame/daily/releases/download/v0.1.0/daily_0.1.0_darwin_amd64.zip"
+  version "0.1.0"
+  sha256 "b2e362d8102f721dc792c0b0bc81ba3736767e5c198cbed1190221dd77155f5b"
 
-    def install
-        bin.install "daily"
-    end
+  def install
+    bin.install "daily"
+  end
 
-    def caveats
-        msg = <<-'EOF'
-            Thanks for using daily!! XD
-        EOF
-    end
+  test do
+    
+  end
 end
